@@ -18,12 +18,24 @@
     <ClCompile Include="DBMS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Almacenamiento.cpp">
+    <ClCompile Include="Storage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Almacenamiento.h">
+    <ClInclude Include="Storage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
