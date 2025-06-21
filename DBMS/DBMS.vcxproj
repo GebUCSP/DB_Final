@@ -127,12 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DataBaseManager.cpp" />
+    <ClCompile Include="InterfaceDataBase.cpp" />
     <ClCompile Include="ReadManager.cpp" />
     <ClCompile Include="Storage.cpp" />
     <ClCompile Include="DBMS.cpp" />
     <ClCompile Include="QueryManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DataBaseManager.h" />
+    <ClInclude Include="InterfaceDataBase.h" />
     <ClInclude Include="ReadManager.h" />
     <ClInclude Include="Storage.h" />
     <ClInclude Include="QueryManager.h" />
